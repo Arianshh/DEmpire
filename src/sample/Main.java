@@ -18,9 +18,11 @@ public class Main extends Application {
         Group root = new Group();
         Scene scene = new Scene(root);
         Canvas canvas = new Canvas(WIDTH, HEIGHT);
-        OST ost=new OST();
+        OST ost = new OST();
+        OST battle = new OST();
+        OST menu = new OST();
 
-        Graphic graphic = new Graphic(root,scene,canvas,primaryStage,gc);
+        Graphic graphic = new Graphic(root, scene, canvas, primaryStage, gc);
         ost.playSountrack();
         graphic.setGraphics();
     }
