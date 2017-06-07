@@ -18,9 +18,9 @@ public class Main extends Application {
         Group root = new Group();
         Scene scene = new Scene(root);
         Canvas canvas = new Canvas(WIDTH, HEIGHT);
-        OST ost = new OST();
-        OST battle = new OST();
-        OST menu = new OST();
+        OST ost = new OST("Age-of-Empires-III-Soundtrack-Of-Licious_12620134.mp3");
+       // OST battle = new OST();
+      //  OST menu = new OST();
 
         Graphic graphic = new Graphic(root, scene, canvas, primaryStage, gc);
         ost.playSountrack();

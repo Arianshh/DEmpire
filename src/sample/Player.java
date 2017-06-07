@@ -8,7 +8,6 @@ import java.util.ArrayList;
 public class Player {
     ArrayList<Building> buildings;
     Resource[] resources;
-
     //ArrayList<Human> humen;
     Player() {
         buildings = new ArrayList<>();
