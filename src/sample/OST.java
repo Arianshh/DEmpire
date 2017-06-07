@@ -11,8 +11,8 @@ import java.io.File;
 public class OST {
 
     public void playSountrack() {
-        String musicFile = "Age-of-Empires-III-Soundtrack-Of-Licious_12620134.mp3";
 
+        String musicFile = "Age-of-Empires-III-Soundtrack-Of-Licious_12620134.mp3";
         Media sound = new Media(getClass().getResource(musicFile).toExternalForm());
         MediaPlayer mediaPlayer = new MediaPlayer(sound);
         mediaPlayer.play();
