@@ -1,9 +1,12 @@
 package sample;
 
+import javafx.scene.image.Image;
+
 /**
  * Created by ASUS on 6/7/2017.
  */
 public class Building {
+    private Image image;
     private static boolean isActive=true;
     int[] pos;
     private int life;
@@ -29,5 +32,13 @@ public class Building {
 
     public void setLife(int life) {
         this.life = life;
+    }
+
+    public Image getImage() {
+        return image;
+    }
+
+    public void setImage(Image image) {
+        this.image = image;
     }
 }

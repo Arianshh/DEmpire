@@ -2,9 +2,6 @@ package sample;
 
 import javafx.scene.image.Image;
 
-/**
- * Created by ASUS on 6/7/2017.
- */
 public class Resource {
 
     Image image;

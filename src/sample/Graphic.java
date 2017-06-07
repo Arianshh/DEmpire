@@ -11,6 +11,7 @@ import javafx.stage.Stage;
  * Created by ASUS on 6/7/2017.
  */
 public class Graphic implements Graphics {
+
     Group root;
     Scene scene;
     Canvas canvas;

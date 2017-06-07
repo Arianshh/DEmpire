@@ -5,7 +5,6 @@ import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 
@@ -19,8 +18,10 @@ public class Main extends Application {
         Group root = new Group();
         Scene scene = new Scene(root);
         Canvas canvas = new Canvas(WIDTH, HEIGHT);
+        OST ost=new OST();
 
         Graphic graphic = new Graphic(root,scene,canvas,primaryStage,gc);
+        ost.playSountrack();
         graphic.setGraphics();
     }
 
